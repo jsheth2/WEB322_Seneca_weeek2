@@ -8,4 +8,4 @@ app.get("/", (req, res) => {
 });
 
 // setup http server to listen on HTTP_PORT
-app.listen(HTTP_PORT);
+app.listen(HTTP_PORT,onHttpStart);
